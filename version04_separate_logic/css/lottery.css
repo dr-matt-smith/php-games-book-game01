@@ -1,0 +1,32 @@
+/*
+based on:
+ http://jsfiddle.net/thirtydot/dQR9T/2637/
+ https://stackoverflow.com/questions/4861224/how-to-use-css-to-surround-a-number-with-a-circle
+ */
+
+.numberCircles {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+}
+
+.numberCircles a,
+.numberCircle {
+    border-radius: 50%;
+
+    font-size: 2rem;
+
+    width: 2rem;
+    height: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    background: lightblue;
+    border: 0.1rem solid #666;
+    color: red;
+    text-align: center;
+
+    text-decoration: none;
+}

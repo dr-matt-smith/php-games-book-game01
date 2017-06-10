@@ -12,11 +12,11 @@
 <h2>Guess a number from 1 to 5:</h2>
 
 <ul class="numberCircles">
-    <li><a href="processGuess.php?guess=1">1</a></li>
-    <li><a href="processGuess.php?guess=2">2</a></li>
-    <li><a href="processGuess.php?guess=3">3</a></li>
-    <li><a href="processGuess.php?guess=4">4</a></li>
-    <li><a href="processGuess.php?guess=5">5</a></li>
+    <li><a href="resultLose.php">1</a></li>
+    <li><a href="resultWin.php">2</a></li>
+    <li><a href="resultLose.php">3</a></li>
+    <li><a href="resultLose.php">4</a></li>
+    <li><a href="resultLose.php">5</a></li>
 </ul>
 </body>
 </html>
