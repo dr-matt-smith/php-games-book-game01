@@ -22,8 +22,8 @@ $max = 7;
 <ul class="numberCircles">
     <?php
     for($i = 1; $i <= $max; $i++){
-        // in the form:     <li><a href="processGuess.php?guess=1">1</a></li>
-        print '<li><a href="processGuess.php?guess=' . $i . '">' . $i . '</a></li>';
+        // in the form:     <li><a href="processGuess.php?max=7&guess=1">1</a></li>
+        print '<li><a href="processGuess.php?max=' . $max . '&guess=' . $i . '">' . $i . '</a></li>';
         print PHP_EOL;
     }
     ?>

@@ -26,16 +26,22 @@ $rightAnswer = rand($min, $max);
         for($i = 1; $i <= $max; $i++){
             if($i == $rightAnswer){
                 print '<li><a href="resultWin.php">' . $i . '</a></li>';
+                print PHP_EOL;
+
             } else {
                 print '<li><a href="resultLose.php">' . $i . '</a></li>';
+                print PHP_EOL;
             }
         }
     ?>
 </ul>
 
+<!--
 <footer>
     ... hint ... the right answer is <?= $rightAnswer ?>
 </footer>
+-->
+
 </body>
 </html>
 
