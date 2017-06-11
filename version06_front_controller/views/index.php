@@ -9,14 +9,16 @@
 <body>
 <h1>The wonderful number guessing game</h1>
 
-<h2>Guess a number from 1 to 5:</h2>
+<h2>Guess a number from 1 to <?= MAX_GUESS ?>:</h2>
 
 <ul class="numberCircles">
-    <li><a href="/index?action=processGuess&guess=1">1</a></li>
-    <li><a href="/index?action=processGuess&guess=2">2</a></li>
-    <li><a href="/index?action=processGuess&guess=3">3</a></li>
-    <li><a href="/index?action=processGuess&guess=4">4</a></li>
-    <li><a href="/index?action=processGuess&guess=5">5</a></li>
+    <?php
+    for($i = 1; $i <= MAX_GUESS; $i++){
+        // in the form:     <li><a href="processGuess.php?action=processGuess&guess=1">1</a></li>
+        print '<li><a href="index.php?action=processGuess&guess=' . $i . '">' . $i . '</a></li>';
+        print PHP_EOL;
+    }
+    ?>
 </ul>
 </body>
 </html>

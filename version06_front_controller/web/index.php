@@ -11,7 +11,7 @@ switch($action){
         processGuessAction();
         break;
 
-    case 'home':
+    case 'index':
     default:
         homeAction();
 }

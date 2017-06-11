@@ -1,0 +1,4 @@
+nice ideas about using Symfony HTTP foundation for simple MVC web application here:
+
+http://slashnode.com/building-a-framework-using-symfony-2-components/
+

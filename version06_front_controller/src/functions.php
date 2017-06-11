@@ -1,11 +1,12 @@
 <?php
 
+define('MIN_GUESS', 1);
+define('MAX_GUESS', 4);
+
 function processGuessAction()
 {
     // choose random number
-    $min = 1;
-    $max = 5;
-    $rightAnswer = rand($min, $max);
+    $rightAnswer = rand(MIN_GUESS, MAX_GUESS);
 
     // get guess data from request
     $guess = filter_input(INPUT_GET, 'guess');
