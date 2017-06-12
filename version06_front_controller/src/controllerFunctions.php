@@ -19,7 +19,7 @@ function processGuessAction()
     }
 }
 
-function homeAction()
+function indexAction()
 {
     // display index home page
     include __DIR__ . '/../views/index.php';
