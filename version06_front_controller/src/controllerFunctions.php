@@ -3,6 +3,14 @@
 define('MIN_GUESS', 1);
 define('MAX_GUESS', 4);
 
+
+function indexAction()
+{
+    // display index home page
+    include __DIR__ . '/../views/index.php';
+}
+
+
 function processGuessAction()
 {
     // choose random number
@@ -13,15 +21,8 @@ function processGuessAction()
 
     // display appropriate page
     if($guess == $rightAnswer) {
-        include __DIR__ . '/../views/resultSuccess.php';
+        include __DIR__ . '/../views/resultWin.php';
     } else {
-        include __DIR__ . '/../views/resultFailure.php';
+        include __DIR__ . '/../views/resultLose.php';
     }
 }
-
-function indexAction()
-{
-    // display index home page
-    include __DIR__ . '/../views/index.php';
-}
-

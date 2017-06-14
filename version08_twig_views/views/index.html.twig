@@ -1,0 +1,22 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>guessing game</title>
+    <style>
+        @import '/css/lottery.css';
+    </style>
+</head>
+<body>
+<h1>The wonderful number guessing game</h1>
+
+<h2>Guess a number from 1 to {{ max }}:</h2>
+
+<ul class="numberCircles">
+    {% for i in 1..max %}
+        <li><a href="/index.php?action=processGuess&guess={{ i }}">{{ i }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
+
