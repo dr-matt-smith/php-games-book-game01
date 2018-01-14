@@ -52,6 +52,5 @@ class MainController
         // output result template
         $html =  $this->twig->render($template, $argsArray);
         print $html;
-
     }
 }
