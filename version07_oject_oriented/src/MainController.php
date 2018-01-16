@@ -13,7 +13,7 @@ class MainController
         $max = MainController::MAX_GUESS;
 
         // display index home page
-        include __DIR__ . '/../views/index.php';
+        include __DIR__ . '/../views/home.php';
     }
 
     public function processGuessAction()

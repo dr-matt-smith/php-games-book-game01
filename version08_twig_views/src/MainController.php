@@ -22,7 +22,7 @@ class MainController
         $max = MainController::MAX_GUESS;
 
         // output index home page
-        $template = 'index.html.twig';
+        $template = 'home.html.twig';
         $argsArray = [
             'max' => MainController::MAX_GUESS
         ];
