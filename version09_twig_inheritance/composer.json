@@ -1,0 +1,13 @@
+{
+  "scripts":{
+    "run": "php -S localhost:8000 -t ./web"
+  },
+  "autoload":{
+    "psr-4": {
+      "Mattsmithdev\\": "./src"
+    }
+  },
+  "require": {
+    "twig/twig": "^2.4"
+  }
+}

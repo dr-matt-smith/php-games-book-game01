@@ -13,7 +13,7 @@
     <img src="/images/happy_computer.png" alt="happy computer">
 
 <p>
-    Congratulations, the answer was <span class="numberCircle">2</span>
+    Congratulations, the answer was <span class="numberCircle"><?= $rightAnswer ?></span>
 
 <a href="/">play again</a>
 

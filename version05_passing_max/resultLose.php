@@ -14,7 +14,7 @@
 
 <p>
 <p>
-    Bad luck, the answer was <span class="numberCircle">2</span>
+    Bad luck, the answer was <span class="numberCircle"><?= $rightAnswer ?></span>
 
 <a href="/">play again</a>
 

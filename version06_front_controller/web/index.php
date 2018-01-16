@@ -8,7 +8,9 @@ $action = filter_input(INPUT_GET, 'action');
 // (2) run logic based on user action
 switch($action){
     case 'processGuess':
-        processGuessAction();
+        // get guess data from request
+        $guess = filter_input(INPUT_GET, 'guess');
+        processGuessAction($guess);
         break;
 
     case 'index':
