@@ -1,7 +1,7 @@
 <?php
 // choose random number
 $min = 1;
-$max = 7;
+$max = 3;
 $rightAnswer = rand($min, $max);
 
 // get guess data from request

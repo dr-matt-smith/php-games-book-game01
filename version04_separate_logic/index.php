@@ -2,7 +2,7 @@
 
 // choose random number
 $min = 1;
-$max = 7;
+$max = 3;
 
 ?>
 
