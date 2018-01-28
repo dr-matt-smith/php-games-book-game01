@@ -13,7 +13,6 @@
     <img src="/images/sad_computer.png" alt="sad computer">
 
 <p>
-<p>
     Bad luck, the answer was <span class="numberCircle">2</span>
 
 <a href="/">play again</a>

@@ -13,7 +13,6 @@
     <img src="/images/sad_computer.png" alt="sad computer">
 
 <p>
-<p>
     Bad luck - that was not the right answer
 
 <a href="/">play again</a>
